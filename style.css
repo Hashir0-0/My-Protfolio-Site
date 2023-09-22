@@ -1,0 +1,80 @@
+body {
+    background-color: #1a1a1a; /* Dark background color */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #3498db; /* Highlight color for headings */
+}
+
+img {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #3498db; /* Highlight border for the image */
+    border-radius: 10px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.1); /* Background color for sections */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
+}
+
+h2 {
+    font-size: 24px;
+    color: #3498db; /* Highlight color for section headings */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db; /* Highlight color for table headers */
+}
+
+/* Additional styling for the skills and contact sections */
+#skills ul,
+#contact ul {
+    list-style-type: disc; /* Use disc bullets for lists */
+}
+
+#contact ul {
+    padding-left: 20px; /* Add some left margin to the contact list */
+}
+
+#contact a {
+    color: #3498db; /* Highlight color for links in the contact section */
+}
